@@ -1,6 +1,9 @@
 from typing import List
 
-
+"""
+Backtracking with pruning -> once number of closing parentheses
+is greater than opening ones we prune.
+"""
 
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
